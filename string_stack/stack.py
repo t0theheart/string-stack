@@ -12,7 +12,8 @@ class Stack:
         return self._stack[-1]
 
     def delete(self):
-        del self._stack[-1]
+        if self._stack:
+            del self._stack[-1]
 
     def is_empty(self):
         return False if self._stack else True
