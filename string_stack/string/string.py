@@ -8,7 +8,7 @@ class String:
 
     @property
     def length(self) -> int:
-        return len(self._chars)
+        return self._length
 
     def clear(self):
         self._chars = []
