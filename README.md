@@ -1,19 +1,19 @@
 # string-stack 
 
-### [OTUS](https://otus.ru) homework
+## [OTUS](https://otus.ru) homework
 
-#### Goal:
+### Goal:
 Create program using the basic OOP principles:
 - encapsulation
 - polymorphism
 - inheritance
 
-#### Class diagram:
+### Class diagram:
 
 ![](./string-stack.png)
 
-#### Description:
-##### Stack
+### Description:
+#### Stack
 There is a my own realization of stack which can contain anything. 
 Some basic operation:
 ```python
@@ -32,7 +32,7 @@ stack.get()              # [5, 5, 5]
 stack.delete()       
 stack.get()              # 'text'
 ```
-##### String
+#### String
 String is a very cut version of string. AdvancedString is a child class which has one more method get_chars.
  ```python
 from string_stack.string import String, AdvancedString
